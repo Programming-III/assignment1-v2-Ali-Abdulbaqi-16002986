@@ -4,7 +4,7 @@
 #include "Person.h"
 #include <string>
 #using namespace std;
-class student{
+class Student :: public Person{
 private:
 int yearLevel;
 string major;
