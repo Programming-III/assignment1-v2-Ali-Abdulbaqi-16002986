@@ -62,7 +62,7 @@ Course :: Course(){
 }
 
 void Course :: addStudent(const Student& s){
-
+students = students + s;
 }
 void Course :: displayCourseInfo(){
 cout << "course Code: " << courseCode << endl;
