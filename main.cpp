@@ -86,10 +86,10 @@ int main() {
    Student s(2, "Informatics");
    p1.display();
    p2.display();
+   s.display();
+   c.addStudent(&s);
    c.displayCourseInfo();
    i.display();
-   s.display()
-   s.addStudent
-    
+   
     return 0;
 }
