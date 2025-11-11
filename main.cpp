@@ -4,8 +4,6 @@
 #include "Student.h"
 #include "Instructor.h"
 #include "Course.h"
-
-
 using namespace std;
 
 Person :: Person(string name, string id){
@@ -81,9 +79,17 @@ cout << "major: " << major << endl;
 
 // ==================== Main Function ====================
 int main() {
-   Course c("101", "CS101 - Introduction to Programming", 3, "Omar Nabil (ID: 2202)", 2);
+   Person p1 ("Dr . Lina Khaled", 202);
+   Person p2 ("Omar Nabil", 2202);
+   Course c("101", "CS101 - Introduction to Programming", 3, p2, 2);
    Instructor i("Computer Science", 5);
    Student s(2, "Informatics");
+   p1.display();
+   p2.display();
+   c.displayCourseInfo();
+   i.display();
+   s.display()
+   s.addStudent
     
     return 0;
 }
