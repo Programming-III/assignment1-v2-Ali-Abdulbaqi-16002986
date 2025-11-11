@@ -8,17 +8,25 @@
 
 using namespace std;
 
-// ==================== Person Class Implementation =========================
+Person :: Person(string name, string id){
+this->name = name;
+this->id = id;
+}
 
+void Person :: display() {
+cout << "Name: " << name << endl;
+cout << "id: " << id << endl;
+}
 
+Student :: Student(int yearLevel, string major){
+this->yearLevel = yearLevel;
+this->major = major;
+}
 
-
-
-
-
-
-// ==================== Student Class Implementation ====================
-
+void Student :: display(){
+cout << "year level: " << yearLevel << endl;
+cout << "major: " << major << endl;
+}
 
 
 
